@@ -33,6 +33,7 @@
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
     "import/prefer-default-export": "off",
+    "camelcase": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -42,7 +43,7 @@
       }
     ],
     "prettier/prettier": "error",
-    "@typescript-eslint/explicit-funcition-return-type": [
+    "@typescript-eslint/explicit-function-return-type": [
       "error",
       {
         "allowExpressions": true
